@@ -51,7 +51,7 @@ const store = makeInMemoryStore({
 async function startA17() {
   console.log(
     color(
-      figlet.textSync("CYBER-PANDA-MD", {
+      figlet.textSync("𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️-MD", {
         font: "Standard",
         horizontalLayout: "default",
         vertivalLayout: "default",
@@ -62,14 +62,14 @@ async function startA17() {
       "green"
     )
   );
-  console.log(color('\nHi, Im CYBER PANDA MD V4 MAIN DEVELOPER OF THIS\n\nTHANKS FOR USER : CYBER PANDA MD V4.', 'aqua'))
-  console.log(color('\nYou can follow me on GitHub: Sachith', 'aqua'))
+  console.log(color('\nHi, Im 𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️ MD V4 MAIN DEVELOPER OF THIS\n\nTHANKS FOR USER : 𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️ MD V4.', 'aqua'))
+  console.log(color('\nYou can follow me on GitHub: tgghosh', 'aqua'))
 
   const { state, saveCreds } = await useMultiFileAuthState("./SESSION");
   const A17 = A17Connect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
-    browser: ["CYBER-PANDA-MD", "Safari", "3.O"],
+    browser: ["𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️-MD", "Safari", "3.O"],
     auth: state,
   });
 
@@ -137,7 +137,7 @@ async function startA17() {
     try {
       ppgc = await A17.profilePictureUrl(pea[0].id, 'image')
     } catch {
-      ppgc = 'https://images2.alphacoders.com/882/882819.jpg'
+      ppgc = 'https://i.imgur.com/INtcP8I.jpg'
     }
     let wm_fatih = { url: ppgc }
     if (pea[0].announce == true) {
@@ -256,13 +256,13 @@ async function startA17() {
           try {
             ppuser = await A17.profilePictureUrl(num, 'image')
           } catch {
-            ppuser = 'https://images6.alphacoders.com/690/690121.jpg'
+            ppuser = 'https:/https://i.imgur.com/INtcP8I.jpg'
           }
 
           try {
             ppgroup = await A17.profilePictureUrl(anu.id, 'image')
           } catch {
-            ppgroup = 'https://telegra.ph/file/4cc2712eee93c105f6739.jpg'
+            ppgroup = 'https:https://i.imgur.com/INtcP8I.jpg'
           }
 
           let targetname = await A17.getName(num)
@@ -275,7 +275,7 @@ async function startA17() {
             A17text = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *🦋 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🦋*, Welcome to ${metadata.subject}.
+I am *🦋 │𝄟✮͢🦋⃟≛⃝Dûßtø(Töñmöy)❥𝄟✮⃝♥️│𝐌𝐃│𝐕➂ 🦋*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
